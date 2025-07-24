@@ -9,7 +9,7 @@ This is a simple browser-based Rock-Paper-Scissors game created using **HTML**, 
 - Clean and responsive interface
 
 ## 🔗 Live Demo
-👉 [Click here to play the game](https://omayma123.github.io/rock-paper-scissors/)
+👉 [Click here to play the game]((https://omayman-dev.github.io/Rock-Paper-Scissors/).
 
 ## 📁 Technologies Used
 - HTML5
