@@ -1,14 +1,35 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>حجر ورقة مقص</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>🎮 لعبة حجر ورقة مقص</h1>
-  <button onclick="startGame()">ابدأ اللعب</button>
+    <!DOCTYPE html>
+    <html>
+      <head>
+<link rel="stylesheet" href="12-rock-paper-scissors.css">
+      </head>
+      <body>
+  <p class="title">Rock Paper Scissors</p>
+  <button  class="move-button js-rock-button" ><img src="rock-emoji.png" class="move-pic"> </button>
 
-  <script src="script.js"></script>
-</body>
-</html>
+  <button  class="move-button js-paper-button"><img src="paper-emoji.png" class="move-pic" ></button>
+
+
+  <button  class="move-button js-scissors-button"><img src="scissors-emoji.png" class="move-pic"></button>
+<p class="js-result  result-style"> tie</p>
+<p class="js-moves moves-style" >
+ </p>
+<p class="js-score"></p>
+
+
+  <button  onclick="
+  score.wins=0;
+  score.losess=0;
+  score.ties=0;
+  localStorage.removeItem('score');
+  updateScoreElement();
+  " class="reset">Reset score</button>
+  <button class="auto-play-button js-auto-play" onclick="
+  autoPlay();
+  ">Auto Play</button>
+  <script src="12-rock-paper-scissors.js">
+
+
+  </script>
+  </body>
+  </html>
